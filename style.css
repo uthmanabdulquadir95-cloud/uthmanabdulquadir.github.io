@@ -249,6 +249,66 @@ section h2{
     border-color:rgba(56,189,248,0.5);
     background:rgba(56,189,248,0.08);
 }
+.certifications{
+    padding:100px 8%;
+    text-align:center;
+}
+
+.cert-card{
+    max-width:700px;
+    margin:auto;
+
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.08);
+
+    padding:35px;
+    border-radius:25px;
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:0 20px 50px rgba(0,0,0,0.4);
+
+    transition:0.4s ease;
+}
+
+.cert-card:hover{
+    transform:translateY(-10px);
+}
+
+.cert-card img{
+    width:100%;
+    border-radius:18px;
+    margin-bottom:25px;
+}
+
+.cert-card h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.cert-card p{
+    color:#94a3b8;
+    margin-bottom:25px;
+}
+
+.cert-card a{
+    display:inline-block;
+
+    padding:14px 28px;
+
+    background:linear-gradient(135deg,#38bdf8,#818cf8);
+
+    color:white;
+    text-decoration:none;
+    border-radius:12px;
+    font-weight:600;
+
+    transition:0.3s ease;
+}
+
+.cert-card a:hover{
+    transform:scale(1.05);
+}
 
 /* PROJECTS */
 
